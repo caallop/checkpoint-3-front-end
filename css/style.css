@@ -26,10 +26,9 @@ button {
 }
 
 .texto-roxo {
-    font-weight: 700;
+    font-weight: 600;
     font-style: Semi Bold;
     font-size: 13px;
-    leading-trim: NONE;
     line-height: 120%;
     letter-spacing: 18%;
     color: #A55AD7;
@@ -147,7 +146,7 @@ header {
     opacity: 1;
 }
 
-.sobre-texts {
+.sobre-texto {
     margin: 40px 0;
     display: flex;
     flex-direction: column;
@@ -155,8 +154,251 @@ header {
     gap: 15px;
 }
 
-.contato {
+.sobre-principal {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+.sobre-titulo {
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #C57AF1;
+    margin-left: 18px;
+
+}
+
+.sobre-principal-texto {
+    display: flex;
+    flex-direction: column;
+    max-width: 540px;
+    text-align: left;
+}
+
+.sobre-conteudo {
+    font-size: 16px;
+    margin: 20px;
+    font-weight: 300;
+    color: #C8BDD4;
+}
+
+.equipe {
+    background-color: #241D31;
+    padding: 20px;
+    padding: 18px 44px 44px 44px;
+    width: 1200px;
+    border-radius: 24px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipe-texto {
+    text-align: center;
+}
+
+.equipe-blocos {
+    display: flex;
+    justify-content: space-around;
+
+    width: 854px;
+    height: 300px;
+    gap: 20px;
+
+}
+
+.card-1 {
+    background-color: #422E59;
+}
+
+.card-2 {
+    background-color: #38294F;
+}
+
+.card-3 {
+    background-color: #4F3369;
+}
+
+.card-equipe {
+    width: 270px;
+    height: 300px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card-equipe-info {
+    background-color: #A55AD7;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.imagem-card {
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    margin: auto;
+    object-fit: cover;
+}
+
+.clientes-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.empresa {
     background-color: #0B0A12;
+    padding: 100px 100px 110px 120px;
+    display: flex;
+}
+
+.depoimentos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1176px;
+    margin-bottom: 50px;
+
+}
+
+.depoimentos-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #2E2540;
+    width: 376px;
+    height: 240px;
+    padding: 26px 28px;
+    gap: 16px;
+    opacity: 1;
+    border-radius: 18px;
+
+}
+
+.imagem-depoimento {
+    width: 54px;
+    border-radius: 50%;
+    margin: auto;
+    object-fit: cover;
+}
+
+.depoimento-citacao {
+    color: #F7F4FB;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 13px;
+    line-height: 145%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.depoimento-nome {
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 13px;
+    line-height: 145%;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.contato {
+    width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+}
+
+.imagem-formulario {
+    width: 500px;
+    height: 360px;
+    border-radius: 22px;
+    object-fit: cover;
+
+}
+
+.formulario {
+    background-color: #241D31;
+    border: #6E3FA3 solid 2px;
+    width: 560px;
+    height: 530px;
+    padding: 30px 34px;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.formulario-textos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario-area{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top:14px ;
+
+}
+
+.titulo-formulario {
+    color: #C57AF1;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0%;
+
+}
+
+.subtexto-formulario {
+    color: #C8BDD4;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 13px;
+    line-height: 145%;
+    letter-spacing: 0%;
+
+
+}
+
+.input-padrao {
+    width: 492px;
+    height: 40px;
+    border-radius: 6px;
+    border: #6E3FA3 solid 1.5px;
+    background-color: #14111C;
+}
+
+.input-mensagem {
+    height: 72px;
+    margin-bottom: 14px;
 }
 
 footer {
