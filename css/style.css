@@ -27,11 +27,58 @@ button {
 
 .texto-roxo {
     font-weight: 600;
-    font-style: Semi Bold;
     font-size: 13px;
     line-height: 120%;
-    letter-spacing: 18%;
+    letter-spacing: 0.18rem;
     color: #A55AD7;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+nav img {
+    width: 38px;
+    height: 38px;
+}
+
+.logo {
+    display: flex;
+    gap: 12px;
+}
+
+.logo-titulo {
+    display: flex;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 120%;
+    align-items: center;
+
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.navegacao a {
+    transition: 0.5s;
+}
+
+.navegacao a:hover {
+    color: #A55AD7;
+    transform: translateY(-4px);
 }
 
 header {
@@ -39,7 +86,6 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 120px;
     background-color: #3B2458;
 }
 
@@ -49,15 +95,16 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 120px;
+
     gap: 28px;
 }
 
 .header-conteudo p {
     font-weight: 400;
-    font-style: Regular;
     font-size: 16px;
     line-height: 150%;
-    letter-spacing: 0%;
+
     text-align: center;
 }
 
@@ -65,7 +112,6 @@ header {
     max-width: 760px;
     font-weight: 700;
     font-size: 49px;
-    font-style: Bold;
     line-height: 112%;
     padding: 28px;
 }
@@ -75,8 +121,6 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-grow: 1;
-    flex-shrink: 1;
     padding: 100px 120px 110px 120px;
 }
 
@@ -94,7 +138,7 @@ header {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    letter-spacing: 0%;
+
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
@@ -108,7 +152,6 @@ header {
     justify-content: center;
     flex-wrap: wrap;
     gap: 26px;
-    flex-basis: auto;
 
 }
 
@@ -116,11 +159,13 @@ header {
     background-color: #2E2540;
     border-radius: 18px;
     padding: 24px;
-    width: 374px;
     height: 210px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 374px;
 
 }
 
@@ -137,13 +182,7 @@ header {
 
 .sobre {
     background-color: #14111C;
-    padding-top: 100px;
-    padding-right: 120px;
-    padding-bottom: 110px;
-    padding-left: 120px;
-    gap: 44px;
-    angle: 0 deg;
-    opacity: 1;
+    padding: 100px 120px 110px 120px;
 }
 
 .sobre-texto {
@@ -163,10 +202,9 @@ header {
 
 .sobre-titulo {
     font-weight: 600;
-    font-style: SemiBold;
     font-size: 22px;
     line-height: 120%;
-    letter-spacing: 0%;
+
     color: #C57AF1;
     margin-left: 18px;
 
@@ -188,7 +226,6 @@ header {
 
 .equipe {
     background-color: #241D31;
-    padding: 20px;
     padding: 18px 44px 44px 44px;
     width: 1200px;
     border-radius: 24px;
@@ -256,13 +293,13 @@ header {
     align-items: center;
     text-align: center;
     flex-direction: column;
+    margin-bottom: 18px;
 
 }
 
 .empresa {
     background-color: #0B0A12;
     padding: 100px 100px 110px 120px;
-    display: flex;
 }
 
 .depoimentos {
@@ -282,7 +319,6 @@ header {
     height: 240px;
     padding: 26px 28px;
     gap: 16px;
-    opacity: 1;
     border-radius: 18px;
 
 }
@@ -297,20 +333,18 @@ header {
 .depoimento-citacao {
     color: #F7F4FB;
     font-weight: 400;
-    font-style: Regular;
     font-size: 13px;
     line-height: 145%;
-    letter-spacing: 0%;
+
     text-align: center;
 
 }
 
 .depoimento-nome {
     font-weight: 600;
-    font-style: Semi Bold;
     font-size: 13px;
     line-height: 145%;
-    letter-spacing: 0%;
+
     text-align: center;
 
 }
@@ -330,6 +364,7 @@ header {
     align-items: center;
     width: 100%;
     gap: 40px;
+    margin-top: 16px;
 }
 
 .imagem-formulario {
@@ -353,37 +388,35 @@ header {
 }
 
 
-.formulario-textos{
+.formulario-textos {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.formulario-area{
+.formulario-area {
     display: flex;
     flex-direction: column;
     gap: 7px;
-    margin-top:14px ;
+    margin-top: 14px;
 
 }
 
 .titulo-formulario {
     color: #C57AF1;
     font-weight: 600;
-    font-style: SemiBold;
     font-size: 22px;
     line-height: 120%;
-    letter-spacing: 0%;
+
 
 }
 
 .subtexto-formulario {
     color: #C8BDD4;
     font-weight: 400;
-    font-style: Regular;
     font-size: 13px;
     line-height: 145%;
-    letter-spacing: 0%;
+
 
 
 }
@@ -403,4 +436,62 @@ header {
 
 footer {
     background-color: #14111C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 34px;
+}
+
+.titulo-footer {
+    text-align: center;
+    margin: 10px;
+}
+
+.imagem-footer {
+    width: 42px;
+}
+
+.footer-box {
+    display: flex;
+    text-align: center;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 1200px;
+    margin-top: 50px;
+}
+
+.footer-elementos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    gap: 19px;
+}
+
+.footer-elementos p {
+    margin: 0;
+    color: #C8BDD4;
+    flex: 1;
+    font-size: 13px;
+}
+
+.linha {
+    background-color: #6E3FA3;
+    width: 80%;
+    height: 1px;
+    opacity: 35%;
+    border: none;
+    margin: 60px auto 25px auto;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.direitos {
+    color: #C8BDD4;
 }
